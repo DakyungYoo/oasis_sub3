@@ -1,0 +1,414 @@
+@font-face {
+    font-family: 'SeoulNamsanM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulNamsanM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OTWelcomeRA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GowunBatang-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Binggrae-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/Binggrae-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Binggrae-Two';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'HeirofLightRegular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.nanumgothic * {
+ font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #595858;
+}
+
+ul,ol{
+    list-style:none;
+}
+
+body{
+    font-family: "Noto Sans KR light";
+    font-size: 16px;
+}
+
+
+/*header*/
+
+#header{
+    background:rgba(255, 255, 255, 0.7);
+    height: 100px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+#header_inner{
+    margin: 0px auto;
+    width: 1320px;
+}
+
+.menu li a{
+    float: left;
+    padding-left: 100px;
+    padding-top: 56px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.icon li a{
+    float: left;
+    padding-left: 40px;
+    padding-top: 56px;
+}
+
+.logo{
+    float: left;
+    padding-top: 10px;
+}
+
+.menu li{
+    float: left;
+}
+
+.icon li{
+    float: right;
+}
+
+
+/*mainbanner*/
+
+#main_banner{
+    background: url(images/main.jpg) no-repeat center center;
+    height: 942px;
+    position: relative;
+}
+
+#main_banner_i{
+    position: absolute;
+    top: 441px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+
+/*review*/
+
+#review{
+    margin: 0 auto;
+    width: 1320px;
+}
+
+.review_inner{
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+
+#review p{
+    border-bottom: 1px solid #181818;
+    height: 50px;
+    padding-top: 100px;
+}
+
+
+.box1{
+    border: 1px solid #595858;
+    height: 40px;
+    width: 909px;
+    margin-top: 50px;
+    float: left;
+}
+
+.box1 h1{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 40px;
+    float: left;
+    padding-left: 40px;
+}
+
+.box1 .select1{
+    float: right;
+    width: 572px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+
+.box1 .select2{
+    float: right;
+    width: 132px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+
+.box2{
+    border-top: 1px solid #595858;
+    border-right: 1px solid #595858;
+    border-bottom: 1px solid #595858;
+    height: 40px;
+    width: 210px;
+    margin-top: 50px;
+    float: left;
+}
+
+.box2 a{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 40px;
+    padding-left: 55px;
+}
+
+.box3{
+    border-top: 1px solid #595858;
+    border-right: 1px solid #595858;
+    border-bottom: 1px solid #595858;
+    height: 40px;
+    width: 195px;
+    margin-top: 50px;
+    float: left;
+}
+
+.box3 a{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 40px;
+    padding-left: 70px;
+    background-image: url(images/icon3.png);
+    background-repeat: no-repeat;
+    background-position: 35% 0%;
+}
+
+
+/*table*/
+
+table{
+    border-top: 1px solid #464646;
+    border-bottom: 1px solid #464646;
+    border-collapse: collapse;
+}
+
+table img{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+.t1{
+    font-family: 'OTWelcomeRA';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    padding-top: 14px;
+}
+
+.t2{
+    font-family: 'OTWelcomeRA';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.t3{
+    font-family: 'OTWelcomeRA';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    color: #8fb369;
+    padding-right: 980px;
+    vertical-align: baseline;
+    padding-top: 5px;
+}
+
+.t4{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.t4 a{
+    font-family: 'OTWelcomeRA';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    color: #737474;
+}
+
+table .border>td{
+    border-top: 1px solid #464646;
+}
+
+
+/*button*/
+
+#btn{
+    margin: 0 auto;
+    width: 375px;
+    padding-top: 50px;
+}
+
+#btn h1{
+    font-family: 'OTWelcomeRA';
+    font-size: 22px;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#btn h2 a{
+    font-family: 'OTWelcomeRA';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    float: left;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #8fb369;
+}
+
+#btn h2 a:hover{
+    color: #475a32;
+}
+
+
+
+
+/*footer*/
+
+#footer{
+    background-color: #ebebeb;
+    margin-top: 199px;
+}
+
+#footer_inner{
+    margin: 0 auto;
+    width: 1320px;
+    text-align: center;
+}
+
+.icon2{
+    display: inline-block;
+}
+
+.icon2 h1{
+    float: left;
+    padding: 30px 20px 5px 20px;
+}
+
+#footer h2{
+    font-family: 'HeirofLightRegular';
+    font-size: 18px;
+    color: #4e443b;
+}
+
+.contact h3{
+    font-family: 'OTWelcomeRA';
+    font-size: 14px;
+    float: left;
+    font-weight: normal;
+    padding: 30px 15px 10px 15px;
+    color: #4e443b;
+}
+
+.contact{
+    width: 513.03px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.info2{
+    width: 709px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.info2 h3{
+    font-family: 'OTWelcomeRA';
+    font-size: 14px;
+    float: left;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 0px 5px 0px 5px;
+    color: #4e443b;
+}
+
+.info3{
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.info3 h3{
+    font-family: 'OTWelcomeRA';
+    font-size: 14px;
+    float: left;
+    font-weight: normal;
+    padding: 0px 5px 10px 5px;
+    color: #4e443b;
+}
+
+#footer h4{
+    padding-bottom: 33px;
+}
+
+
+
+
+
+
+
+
